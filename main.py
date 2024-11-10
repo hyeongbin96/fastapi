@@ -4,7 +4,7 @@ from fastapi import FastAPI, Form
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-app = FastAPI()
+fastapi = FastAPI()
 
 items = {
     "1": {"name": "hyeongbin"},
